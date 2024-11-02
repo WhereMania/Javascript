@@ -1,0 +1,40 @@
+/* styles.css */
+#slotMachineContainer {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(93, 44, 138);
+  margin: 0;
+  height: 50vh;
+  width: 50vh;
+  margin-left: auto; /* This and margin-right set to auto centers the div */
+  margin-right: auto;
+  background-image: url(sloth.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-image: url(back.jpg);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.slot-machine {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+
+.slot-image {
+  width: 100px;
+  height: 85px;
+  border: 2px solid #333; /* Border style */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+  border-radius: 8px; /* Optional: rounded corners */
+  background-color: #ffffff; /* Optional: background color */
+}
